@@ -8,6 +8,8 @@ import collab6 from '../images/collab-6.jpg';
 import collab7 from '../images/collab-7.jpg';
 import collab8 from '../images/collab-8.jpg';
 import collab9 from '../images/collab-9.jpg';
+import collab10 from '../images/collab-10.jpg';
+import collab11 from '../images/collab-11.jpg';
 
 export default function Collaborations() {
     const [offset, setOffset] = useState(0);
@@ -81,6 +83,13 @@ export default function Collaborations() {
                                 <p className="text-white text-lg tracking-[0.2em] font-light uppercase opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">Modern Luxury</p>
                             </div>
                         </div>
+                        <div className="aspect-[4/5] overflow-hidden relative group rounded-sm shadow-sm">
+                            <img src={collab10} alt="Future Structure" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
+                            <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-all duration-500" />
+                            <div className="absolute bottom-8 left-0 w-full text-center">
+                                <p className="text-white text-lg tracking-[0.2em] font-light uppercase opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">Avant-Garde</p>
+                            </div>
+                        </div>
                     </div>
 
                     {/* Column 2 - Faster / Moves Up */}
@@ -124,6 +133,13 @@ export default function Collaborations() {
                                 <p className="text-white text-lg tracking-[0.2em] font-light uppercase opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">Night Scape</p>
                             </div>
                         </div>
+                        <div className="aspect-[3/5] overflow-hidden relative group rounded-sm shadow-sm">
+                            <img src={collab11} alt="Green Living" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" />
+                            <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-all duration-500" />
+                            <div className="absolute bottom-8 left-0 w-full text-center">
+                                <p className="text-white text-lg tracking-[0.2em] font-light uppercase opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">Sustainable Luxury</p>
+                            </div>
+                        </div>
                     </div>
 
                     {/* Column 4 - Faster / Moves Up */}
@@ -149,4 +165,3 @@ export default function Collaborations() {
         </section>
     );
 }
-
