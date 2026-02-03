@@ -1,6 +1,7 @@
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import FeaturedProperties from './components/FeaturedProperties';
+import Collaborations from './components/Collaborations';
 import LuxuryShowcase from './components/LuxuryShowcase';
 import About from './components/About';
 import WhyDubai from './components/WhyDubai';
@@ -17,6 +18,7 @@ function App() {
       <Navigation />
       <Hero />
       <FeaturedProperties />
+      <Collaborations />
       <LuxuryShowcase />
       <About />
       <WhyDubai />
