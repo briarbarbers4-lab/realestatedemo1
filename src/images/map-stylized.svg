@@ -1,0 +1,24 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg" style="background-color: #0B1120;">
+  <!-- Abstract Coastline -->
+  <path d="M0,600 L0,300 Q200,350 300,200 T600,100 T900,50 L1000,0 L1000,600 Z" fill="#0f172a" />
+  
+  <!-- Palm Jumeirah Abstract -->
+  <circle cx="250" cy="250" r="40" fill="#1e293b" opacity="0.5" />
+  <path d="M250,250 L250,200 M250,250 L220,220 M250,250 L280,220 M250,250 L200,250 M250,250 L300,250" stroke="#334155" stroke-width="4" />
+
+  <!-- World Islands Abstract -->
+  <circle cx="500" cy="150" r="10" fill="#334155" opacity="0.4" />
+  <circle cx="530" cy="140" r="8" fill="#334155" opacity="0.4" />
+  <circle cx="480" cy="160" r="12" fill="#334155" opacity="0.4" />
+
+  <!-- Road Networks (Gold Lines) -->
+  <path d="M0,550 Q400,500 800,200 L1000,100" stroke="#ca8a04" stroke-width="2" fill="none" opacity="0.2" />
+  <path d="M100,600 L300,200 L600,0" stroke="#ca8a04" stroke-width="1" fill="none" opacity="0.1" />
+  <path d="M800,600 L800,200 L900,0" stroke="#ca8a04" stroke-width="1" fill="none" opacity="0.1" />
+
+  <!-- Grid Overlay -->
+  <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+    <path d="M 50 0 L 0 0 0 50" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  </pattern>
+  <rect width="1000" height="600" fill="url(#grid)" />
+</svg>

@@ -5,6 +5,9 @@ import Collaborations from './components/Collaborations';
 import LuxuryShowcase from './components/LuxuryShowcase';
 import About from './components/About';
 import WhyDubai from './components/WhyDubai';
+import ROICalculator from './components/ROICalculator';
+import PropertyVisualizer from './components/PropertyVisualizer';
+import NeighborhoodExplorer from './components/NeighborhoodExplorer';
 import Testimonials from './components/Testimonials';
 import CTA from './components/CTA';
 import ContactForm from './components/ContactForm';
@@ -22,6 +25,9 @@ function App() {
       <LuxuryShowcase />
       <About />
       <WhyDubai />
+      <ROICalculator />
+      <PropertyVisualizer />
+      <NeighborhoodExplorer />
       <Testimonials />
       <CTA />
       <ContactForm />
